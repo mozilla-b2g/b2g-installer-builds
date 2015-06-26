@@ -1,0 +1,21 @@
+[
+  {
+    "id": "Testing Z3 Compact",
+    "screenshot": "http://api.sonymobile.com/files/xperia-z3-compact-mandarin-1240x840-6732d63f6eb7dfe080a35e4f4f04c920.jpg",
+    "description": "Builds provided by Mozilla based on the current default Gaia",
+    "builds": [{
+      "name": "lissy",
+      "description": "Random build by Alexandre, not official",
+      "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
+    }],
+    "adb": {
+      "ro.semc.product.model": [ "D5803", "D5833" ],
+      "ro.bootloader": "s1",
+      "ro.semc.version.sw_revision": "23.0.1.A.5.77"
+    },
+    "fastboot": {
+      "product": [ "D5803", "D5833" ],
+      "version-bootloader": [ "1286-7314 S1_Boot_MSM8974AC_LA3.0_60", "1286-7314 S1_Boot_MSM8974AC_LA3.0_L_15" ]
+    }
+  }
+]
