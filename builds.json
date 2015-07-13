@@ -1,13 +1,18 @@
 [
   {
-    "id": "Testing Z3 Compact",
-    "screenshot": "http://api.sonymobile.com/files/xperia-z3-compact-mandarin-1240x840-6732d63f6eb7dfe080a35e4f4f04c920.jpg",
-    "description": "Builds provided by Mozilla based on the current default Gaia",
-    "builds": [{
-      "name": "lissy",
-      "description": "Random build by Alexandre, not official",
-      "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
-    }],
+    "id": "Sony Experia Z3C (compact)",
+    "builds": [
+      {
+        "name": "lissy",
+        "description": "Random build by Alexandre, not official",
+        "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
+      },
+      {
+        "name": "spark",
+        "description": "Not really spark, just testing",
+        "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
+      }
+    ],
     "adb": {
       "ro.semc.product.model": [ "D5803", "D5833" ],
       "ro.bootloader": "s1",
