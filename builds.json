@@ -1,16 +1,16 @@
 [
   {
-    "id": "Sony Experia Z3C (compact)",
+    "id": "Sony Xperia Z3 Compact (Kitkat)",
     "builds": [
       {
-        "name": "lissy",
-        "description": "Random build by Alexandre, not official",
-        "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
+        "name": "nightly userdebug",
+        "description": "Nightly userdebug build freshly baked from TaskCluster",
+        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.aries.debug/artifacts/public/build/aries.blobfree-dist.zip"
       },
       {
-        "name": "spark",
-        "description": "Not really spark, just testing",
-        "url": "http://junk.arandomurl.com/aries.blobfree-dist.zip"
+        "name": "nightly eng",
+        "description": "Nightly eng build freshly baked from TaskCluster",
+        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.aries-eng.opt/artifacts/public/build/aries.blobfree-dist.zip"
       }
     ],
     "adb": {
@@ -21,6 +21,30 @@
     "fastboot": {
       "product": [ "D5803", "D5833" ],
       "version-bootloader": [ "1286-7314 S1_Boot_MSM8974AC_LA3.0_60", "1286-7314 S1_Boot_MSM8974AC_LA3.0_L_15" ]
+    }
+  },
+  {
+    "id": "Mozilla Flame (Kitkat)",
+    "builds": [
+      {
+        "name": "nightly userdebug",
+        "description": "Nightly userdebug build freshly baked from TaskCluster",
+        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.flame-kk.debug/artifacts/public/build/flame.blobfree-dist.zip"
+      },
+      {
+        "name": "nightly eng",
+        "description": "Nightly eng build freshly baked from TaskCluster",
+        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.flame-kk-eng.opt/artifacts/public/build/flame.blobfree-dist.zip"
+      }
+    ],
+    "adb": {
+      "ro.product.device": [ "flame" ],
+      "ro.bootloader": "L1TC000118D0",
+      "ro.build.id": "KOT49H"
+    },
+    "fastboot": {
+      "product": [ "MSM8610" ],
+      "version": [ "0.5" ]
     }
   }
 ]
