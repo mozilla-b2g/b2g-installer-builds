@@ -64,7 +64,7 @@
     "adb": {
       "ro.product.device": [ "mako" ],
       "ro.bootloader": ["MAKOZ20i", "MAKOZ30d"],
-      "ro.build.id": ["KOT49H", "KTU48L", "KTU48P"]
+      "ro.build.id": ["KOT49H", "KTU48L", "KTU84P"]
     },
     "fastboot": {
       "product": [ "mako" ]
