@@ -87,7 +87,7 @@
     "adb": {
       "ro.product.device": [ "hammerhead" ],
       "ro.bootloader": ["HHZ11k", "HHZ12f", "HHZ12h"],
-      "ro.build.id": ["LMY48M", "LMY48I", "LMY48B", "LMY47I", "LMY47D", "LRX22C", "LRX21O"]
+      "ro.build.id": ["LMY48M", "LMY48I", "LMY48B", "LMY47I", "LMY47D", "LRX22C", "LRX21O", "LVY48I"]
     },
     "fastboot": {
       "product": [ "hammerhead" ]
