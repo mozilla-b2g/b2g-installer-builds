@@ -92,5 +92,23 @@
     "fastboot": {
       "product": [ "hammerhead" ]
     }
+  },
+  {
+    "id": "Wileyfox Swift",
+    "builds": [
+      {
+        "name": "experimental userdebug",
+        "description": "Experimental userdebug build release hosted on GitHub",
+        "url": "https://github.com/cm-b2g/android_device_wileyfox_crackling/releases/download/20160304.181851/crackling.blobfree-dist.zip"
+      }
+    ],
+    "adb": {
+      "ro.product.device": [ "crackling" ],
+      "ro.bootloader": [ "crackling-12-ge9dcde6" ],
+      "ro.build.id": [ "LMY48Y" ]
+    },
+    "fastboot": {
+      "product": [ "MSM8916" ]
+    }
   }
 ]
