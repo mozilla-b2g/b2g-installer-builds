@@ -110,5 +110,24 @@
     "fastboot": {
       "product": [ "MSM8916" ]
     }
+  },
+  {
+    "id": "Sony Xperia Z3 Compact (Kitkat)",
+    "builds": [
+      {
+        "name": "B2G OS Experimental transition",
+        "description": "B2G OS Transition debug build to allow easier experiments",
+        "url": "https://github.com/mozilla-b2g/b2g-installer-builds/releases/download/b2gos-experimental-v1/aries.blobfree-dist.zip"
+      }
+    ],
+    "adb": {
+      "ro.semc.product.model": [ "D5803", "D5833" ],
+      "ro.bootloader": "s1",
+      "ro.semc.version.sw_revision": "23.0.1.A.5.77"
+    },
+    "fastboot": {
+      "product": [ "D5803", "D5833" ],
+      "version-bootloader": [ "1286-7314 S1_Boot_MSM8974AC_LA3.0_60", "1286-7314 S1_Boot_MSM8974AC_LA3.0_L_15" ]
+    }
   }
 ]
