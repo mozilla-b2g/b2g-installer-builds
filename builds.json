@@ -115,9 +115,9 @@
     "id": "Sony Xperia Z3 Compact (Kitkat)",
     "builds": [
       {
-        "name": "B2G OS Experimental transition",
-        "description": "B2G OS Transition debug build to allow easier experiments",
-        "url": "https://github.com/mozilla-b2g/b2g-installer-builds/releases/download/b2gos-experimental-v1/aries.blobfree-dist.zip"
+        "name": "B2GOS Experimental transition",
+        "description": "B2GOS Transition debug build to allow easier experiments. Updated build, April 19th.",
+        "url": "https://github.com/mozilla-b2g/b2g-installer-builds/releases/download/b2gos-experimental-v2/aries.blobfree-dist.zip"
       }
     ],
     "adb": {
