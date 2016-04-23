@@ -129,5 +129,22 @@
       "product": [ "D5803", "D5833" ],
       "version-bootloader": [ "1286-7314 S1_Boot_MSM8974AC_LA3.0_60", "1286-7314 S1_Boot_MSM8974AC_LA3.0_L_15" ]
     }
+  },
+  {
+    "id": "Fairphone 2 (Lollipop)",
+    "builds": [
+      {
+        "name": "nightly user",
+        "description": "B2G Nightly user build for Fairphone 2",
+        "url": "https://github.com/atilag/b2g-installer-builds/releases/download/b2g-fp2-nightly/FP2.blobfree-dist.zip"
+      }
+    ],
+    "adb": {
+      "ro.product.device": [ "FP2" ],
+      "ro.build.display.id": [ "r4275.1_FP2_gms43_1.2.8" ]
+    },
+    "fastboot": {
+      "product": [ "FAIRPHONE" ]
+    }
   }
 ]
