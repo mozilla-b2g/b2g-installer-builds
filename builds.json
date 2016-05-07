@@ -35,6 +35,11 @@
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
         "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.flame-kk-eng.opt/artifacts/public/build/flame.blobfree-dist.zip"
+      },
+      {
+        "name": "B2G OS transition",
+        "description": "Community build from the kanikani and pine transition branches.",
+        "url": "https://googledrive.com/host/0B179vm24EW9AV1l3WklqN25lMEE/flame/flame.blobfree-dist.latest.zip"
       }
     ],
     "adb": {
