@@ -87,6 +87,11 @@
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
         "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.nexus-5-l-eng.opt/artifacts/public/build/hammerhead.blobfree-dist.zip"
+      },
+      {
+        "name": "B2G OS transition",
+        "description": "Community build from the kanikani and pine transition branches.",
+        "url": "https://github.com/mozilla-b2g/b2g-installer-builds/releases/download/b2gos-experimental-v1-hammerhead/hammerhead.blobfree-dist.zip"
       }
     ],
     "adb": {
