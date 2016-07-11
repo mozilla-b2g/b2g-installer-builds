@@ -147,7 +147,7 @@
         "name": "nightly user",
         "description": "B2G Nightly user build for Fairphone 2",
         "url": "https://github.com/atilag/b2g-installer-builds/releases/download/b2g-fp2-nightly/FP2.blobfree-dist.zip"
-      }
+      },
      {
         "name": "B2G OS transition",
         "description": "Community build from the kanikani and pine transition branches.",
@@ -156,7 +156,7 @@
     ],
     "adb": {
       "ro.product.device": [ "FP2" ],
-      "ro.build.display.id": [ "r4275.1_FP2_gms43_1.2.8", "r4275.1_FP2_gms56_1.4.2", "r4275.1_FP2_gms59_1.5.1" ]
+      "ro.build.display.id": [ "r4275.1_FP2_gms43_1.2.8", "r4275.1_FP2_gms54_1.3.6", "r4275.1_FP2_gms56_1.4.2", "r4275.1_FP2_gms59_1.5.1" ]
     },
     "fastboot": {
       "product": [ "FAIRPHONE" ]
