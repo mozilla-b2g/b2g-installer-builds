@@ -151,7 +151,7 @@
      {
         "name": "B2G OS transition",
         "description": "Community build from the kanikani and pine transition branches.",
-        "url": "https://www.dropbox.com/s/v6kt9o7aglvxfya/FP2.blobfree-dist.zip?dl=0"
+        "url": "https://github.com/mozilla-b2g/b2g-installer-builds/releases/download/b2gos-experimental-fp2/FP2.blobfree-dist.zip"
       }
     ],
     "adb": {
