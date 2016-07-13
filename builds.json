@@ -156,7 +156,7 @@
     ],
     "adb": {
       "ro.product.device": [ "FP2" ],
-      "ro.build.display.id": [ "r4275.1_FP2_gms43_1.2.8", "r4275.1_FP2_gms54_1.3.6", "r4275.1_FP2_gms56_1.4.2", "r4275.1_FP2_gms59_1.5.1" ]
+      "ro.build.display.id": [ "r4275.1_FP2_gms36_1.1.7", "r4275.1_FP2_gms43_1.2.8", "r4275.1_FP2_gms54_1.3.6", "r4275.1_FP2_gms56_1.4.2", "r4275.1_FP2_gms59_1.5.1" ]
     },
     "fastboot": {
       "product": [ "FAIRPHONE" ]
