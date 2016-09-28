@@ -5,12 +5,12 @@
       {
         "name": "nightly userdebug",
         "description": "Nightly userdebug build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.aries.debug/artifacts/public/build/aries.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.aries-debug/artifacts/public/build/aries.blobfree-dist.zip"
       },
       {
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.aries-eng.opt/artifacts/public/build/aries.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.aries-eng-opt/artifacts/public/build/aries.blobfree-dist.zip"
       }
     ],
     "adb": {
@@ -29,12 +29,12 @@
       {
         "name": "nightly userdebug",
         "description": "Nightly userdebug build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.flame-kk.debug/artifacts/public/build/flame.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.flame-kk-debug/artifacts/public/build/flame.blobfree-dist.zip"
       },
       {
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.flame-kk-eng.opt/artifacts/public/build/flame.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.flame-kk-eng-opt/artifacts/public/build/flame.blobfree-dist.zip"
       },
       {
         "name": "B2G OS transition",
@@ -58,12 +58,12 @@
       {
         "name": "nightly user",
         "description": "Nightly user build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.nexus-4-kk-user.opt/artifacts/public/build/mako.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.nexus-4-kk-user-opt/artifacts/public/build/mako.blobfree-dist.zip"
       },
       {
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.nexus-4-kk-eng.opt/artifacts/public/build/mako.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.nexus-4-kk-eng-opt/artifacts/public/build/mako.blobfree-dist.zip"
       }
     ],
     "adb": {
@@ -81,12 +81,12 @@
       {
         "name": "nightly user",
         "description": "Nightly user build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.nexus-5-user.opt/artifacts/public/build/hammerhead.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.nexus-5-user-opt/artifacts/public/build/hammerhead.blobfree-dist.zip"
       },
       {
         "name": "nightly eng",
         "description": "Nightly eng build freshly baked from TaskCluster",
-        "url": "https://index.taskcluster.net/v1/task/gecko.v1.mozilla-central.latest.linux.nexus-5-l-eng.opt/artifacts/public/build/hammerhead.blobfree-dist.zip"
+        "url": "https://index.taskcluster.net/v1/task/gecko.v2.mozilla-central.latest.b2g.nexus-5-l-eng-debug/artifacts/public/build/hammerhead.blobfree-dist.zip"
       },
       {
         "name": "B2G OS transition",
